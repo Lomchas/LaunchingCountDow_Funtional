@@ -12,9 +12,9 @@ const Count = () => {
     let interval = useRef();
 
     const startTimer = () =>{
-        const countdowdate = new Date('april 25, 2022 00:00:00').getTime();
+        const countdowdate = new Date('april 30, 2022 00:00:00').getTime();
 
-        interval = setInterval(() => {
+        interval.current = setInterval(() => {
             const now = new Date().getTime();
             const distance = countdowdate - now;
 
