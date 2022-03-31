@@ -1,0 +1,39 @@
+.social-container{
+    background-image: url(../Images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99%;
+    height: 30%;
+    position: relative;
+    bottom: -35px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-container .social-Icon{
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 750px){
+    .social-container{
+        background-image: url(../Images/pattern-hills.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100vw 30vh;
+        width: 99%;
+        height: 30%;
+        position: relative;
+        bottom: -35px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .social-container .social-Icon{
+        margin: 0 1rem;
+    }
+}

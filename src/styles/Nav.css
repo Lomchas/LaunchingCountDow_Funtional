@@ -1,0 +1,11 @@
+.nav-container{
+    width: 100%;
+}.nav-title{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', 'Helvetica Neue';
+    font-weight: 600;
+    font-size: calc(.6rem + 1vw);
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
