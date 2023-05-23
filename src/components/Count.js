@@ -12,7 +12,7 @@ const Count = () => {
     let interval = useRef();
 
     const startTimer = () =>{
-        const countdowdate = new Date('april 30, 2022 00:00:00').getTime();
+        const countdowdate = new Date('june 30, 2023 00:00:00').getTime();
 
         interval.current = setInterval(() => {
             const now = new Date().getTime();
